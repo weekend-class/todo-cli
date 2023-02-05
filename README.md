@@ -7,10 +7,48 @@
 ## Requirement Commands
 
 * Add a todo
-* Remove a todo
-* Check a todo
-* Uncheck a todo
+
+    Ex:  
+    `add` Go to market  
+    `add` Buy a Food  
+
 * List all todo
+
+    Ex:  
+    `ls`  
+    ```
+    (1) Go to market  
+    (2) Buy a Food
+    ```
+
+* Remove a todo
+
+    Ex:  
+    `rm` 1  
+    `ls`
+    ```
+    (1) Buy a Food
+    ```
+
+* Check a todo
+
+    Ex:  
+    `check` 1  
+    `ls`
+    ```
+    (1) Go to market ✅  
+    (2) Buy a Food
+    ```
+
+* Uncheck a todo
+
+    Ex:  
+    `uncheck` 1  
+    `ls`
+    ```
+    (1) Go to market  
+    (2) Buy a Food
+    ```
 
 ### Coding style
 *Make sure the code is readable, either by refactoring into `Controller` class or function.
